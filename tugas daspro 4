@@ -1,0 +1,12 @@
+x = input("Masukkan angka: ")
+
+desimal = int(x)
+
+konversi_biner = bin(desimal)
+konversi_oktal = oct(desimal)
+konversi_hexadesimal = hex(desimal)
+
+print("Hasil konversi ke angka biner adalah:", konversi_biner)
+print("Hasil konversi ke angka oktal adalah:", konversi_oktal)
+print("Hasil konversi ke angka heksadesimal adalah:", konversi_hexadesimal)
+print("Hasil konversi ke angka desimal:", desimal)
